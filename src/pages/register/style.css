@@ -1,0 +1,102 @@
+.register{
+    width: 380px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin: auto 0;
+    border: 1px solid #eee;
+    padding: 18px 24px;
+    box-shadow: 0 0 8px 8px #ccc;
+    border-radius: 4px;
+}
+
+.register h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(43, 43, 43);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    margin-top: 36px;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.form-field input{
+    height: 28px;
+    padding: 9px 11px;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+}
+
+.form-field p{
+    font-family: sans-serif;
+    color:red;
+    font-size: 12px;
+}
+
+.form-field input:focus{
+    outline-color: skyblue;
+}
+
+.register-btn{
+    border: none;
+    font-size: 18px;
+    color: #fff;
+    background-color: green;
+    padding: 4px 7px;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.register-btn:hover{
+    transition: 0.3s ease-in-out;
+   background-color: rgb(2, 94, 2);
+}
+
+.backtologin{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+}
+
+.backtologin p{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(248, 60, 60);
+}
+
+.after-registration{
+    margin:auto 0;
+}
+
+.after-registration h1{
+    font-size: 24px;
+    color:#575656;
+}
+
+.login-btn{
+    border:none;
+    color: #fff;
+    background-color: #0D6EFD;
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.backtologin button:hover{
+    background-color: #04429e;
+    transition: 0.3s ease-in-out;
+}
